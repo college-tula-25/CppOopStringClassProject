@@ -14,8 +14,13 @@ String GetStars(int count)
 
 int main()
 {
-    String s1;
-    String s2 = s1;
-    //Func(s1);
-    String s3 = GetStars(10);
+    String s1("Hello world");
+    String s2 = "Good by";
+
+    s2 = 'a';
+    std::cout << s2;
+
+    //std::cout << s1[4] << "\n";
+    //s1[4] = '$';
+    //std::cout << s1 << "\n";
 }
